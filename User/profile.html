@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>UnJam</title>
+</head>
+<style>
+    #abc {
+        text-align: center;
+        /* margin-left: 47%; */
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        color: rgba(118, 34, 11, 0.86);
+        mix-blend-mode: normal;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #abc1,
+    #abc2,
+    #abc3 {
+        display: inline-block;
+        /* border: 1px solid red; */
+        /* margin: 10px; */
+        width: 135px;
+        /* height: 57px; */
+        border-radius: 27px;
+        margin: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        /* background: rgba(255, 170, 26, 0.86); */
+        /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+        display: flex;
+        justify-content: center;
+    }
+
+    .abc4 {
+        display: block;
+        margin: auto;
+        background: #000000;
+        border-radius: 47px;
+    }
+
+    .abc411 {
+        display: block;
+        margin: auto;
+        background: #000000;
+    }
+
+    #abc41 {
+        height: 45px;
+        width: 55px;
+    }
+
+    #abc412 {
+        height: 28px;
+        width: 30px;
+    }
+
+    #abc42 {
+        /* position: absolute; */
+        /* left: 5.31%;
+        right: 43%;
+        top: 29.8%;
+        bottom: 67.08%; */
+        margin-top: 100px;
+        text-align: center;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #76220b;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .abc43 {
+        /* position: relative; */
+        width: 339px;
+        height: 187px;
+        /* left: calc(50% - 339px/2 + 2.5px); */
+        /* top: calc(50% - 187px/2 - 34.5px); */
+        margin: auto;
+        margin-top: 50px;
+        background: url("./Map.jpg");
+        mix-blend-mode: normal;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .abc44 {
+        /* position: relative; */
+        width: 339px;
+        height: 187px;
+        /* left: calc(50% - 339px/2 + 2.5px); */
+        /* top: calc(50% - 187px/2 - 34.5px); */
+        margin: auto;
+        margin-top: 50px;
+        background: url("./Google_map.jpg");
+        mix-blend-mode: normal;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .abc45 {
+        /* position: absolute; */
+        /* left: 1.21%;
+        right: 0%;
+        top: 94.75%;
+        bottom: -1.67%; */
+        margin: auto;
+        margin-top: 4%;
+        width: 409px;
+        height: 40px;
+        background: #ffaa1a;
+        border-radius: 17px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #abc51,
+    #abc52,
+    #abc53 {
+        display: inline-block;
+        /* border: 1px solid red; */
+        /* margin: 10px; */
+        width: 105px;
+        height: 37px;
+        border-radius: 27px;
+        margin: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background: none;
+
+        /* background: #FFFFFF; */
+        /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+        display: flex;
+        justify-content: center;
+    }
+
+    #abc541 {
+        /* position: absolute; */
+        /* left: 14.25%;
+      right: 66.18%;
+      top: 22.05%;
+      bottom: 75.78%; */
+        /* background: url("./cover.jpg"), #C4C4C4; */
+        /* width: 10%; */
+        /* background-repeat: none; */
+        border-radius: 100px;
+        width: 150%;
+        margin-left: 1%;
+    }
+
+    .abc54 {
+        display: block;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        /* background: #000000; */
+    }
+
+    .abc542 {
+        /* position: absolute; */
+        left: 46.1%;
+        right: 42.03%;
+        top: 21.65%;
+        bottom: 75.22%;
+
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        /* margin-left: 0%; */
+        /* margin-left: 50%; */
+
+        color: #76220b;
+    }
+
+    .abc543 {
+        /* position: absolute; */
+        left: 36.1%;
+        right: 8.45%;
+        top: 27.85%;
+        bottom: 80.02%;
+        text-align: center;
+
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        /* margin-left: 30%; */
+
+        color: #76220b;
+    }
+
+    .abc544 {
+        /* position: absolute; */
+        left: 46.1%;
+        right: 42.03%;
+        top: 33.65%;
+        bottom: 75.22%;
+        /* margin-left: 30%; */
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+
+        text-align: center;
+        color: #76220b;
+    }
+
+    .abc545 {
+        margin-top: 5%;
+        width: 40%;
+        border: 3px solid rgba(118, 34, 11, 0.86);
+    }
+
+    .abc546 {
+        /* position: absolute;  */
+        left: 23.19%;
+        right: 19.57%;
+        top: 73.77%;
+        bottom: 19.87%;
+        width: 237px;
+        height: 57px;
+
+        background: rgba(255, 170, 26, 0.86);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 27px;
+        margin: auto;
+        margin-top: 10%;
+        border-style: none;
+
+        display: block;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #76220B;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1 id="abc">Profile</h1>
+        <div style="display: flex; justify-content: center; margin-top: 5%">
+            <div class="abc54"><img src="./cover.jpg" id="abc541" alt="" /></div>
+            <br>
+        </div>
+        <div style="text-align: center;">
+            <h1 class="abc542">Name</h1>
+            <!-- <br> -->
+            <h1 class="abc543">Vehicle Number</h1>
+            <!-- <br> -->
+            <h1 class="abc544">City</h1>
+            <!-- <br> -->
+        </div>
+        <hr class="abc545" />
+        <h1 id="abc" style="font-size: 24px; margin-top: 5%">My contacts</h1>
+        <div style="display: flex; justify-content: center; margin-top: 5%">
+            <div id="abc1"><img class="abc4" src="./p1.jpg" alt="" /></div>
+            <div id="abc2"><img class="abc4" src="./p2.jpg" alt="" /></div>
+            <div id="abc1"><img class="abc4" src="./p3.jpg" alt="" /></div>
+            <div id="abc1"><img class="abc4" src="./p4.jpg" alt="" /></div>
+        </div>
+
+        <h1 id="abc" style="font-size: 24px; margin-top: 8%">Nearest Mechanics</h1>
+
+        <div style="display: flex; justify-content: center; margin-top: 5%">
+            <div id="abc1">
+                <img class="abc4" id="abc41" src="./logo1.png" alt="" />
+            </div>
+            <div id="abc2">
+                <img class="abc4" id="abc41" src="./logo2.png" alt="" />
+            </div>
+            <div id="abc1">
+                <img class="abc4" id="abc41" src="./logo3.png" alt="" />
+            </div>
+            <div id="abc1">
+                <img class="abc4" id="abc41" src="./logo4.png" alt="" />
+            </div>
+        </div>
+        <button class="abc546">
+            Share My Location
+        </button>
+    </div>
+    <div class="abc45" style="margin-top: 20%;">
+        <div id="abc51"><img class="abc411" id="abc412" style="border-radius: 5px;" src="./search.jpg" alt=""></div>
+        <div id="abc52"><a href="/locate.html"><div><img class="abc411" id="abc412" src="./house.jpg" alt=""></div></a></div>
+        <div id="abc53"><a href="/profile.html"><div><img class="abc411" id="abc412" src="./profile.jpg" alt=""></div></a></div>
+    </div>
+    
+</body>
+
+</html>
